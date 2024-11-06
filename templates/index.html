@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aeroponics Monitoring Dashboard</title>
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}" />
+  </head>
+  <body>
+    <header>
+      <h1>Aeroponics Monitoring Dashboard</h1>
+    </header>
+    <section id="dashboard">
+      <h2>Real-Time Sensor Data</h2>
+      <div class="data-cards">
+        <div class="card">
+          <h3>Temperature</h3>
+          <p id="temperature">-- °C</p>
+        </div>
+        <div class="card">
+          <h3>Humidity</h3>
+          <p id="humidity">-- %</p>
+        </div>
+        <div class="card">
+          <h3>pH Level</h3>
+          <p id="ph">--</p>
+        </div>
+        <div class="card">
+          <h3>Light Intensity</h3>
+          <p id="light">-- lux</p>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
