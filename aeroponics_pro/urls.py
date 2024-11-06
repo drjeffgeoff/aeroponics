@@ -21,5 +21,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('api/sensor/', include('sensor.urls')),
     path('api/accounts/', include('accounts.urls')),
+    path('api/crop_monitoring/', include('crop_monitoring.urls')),
+    path('api/recommendation/', include('recommendation.urls')),
     # Add URLs for other apps similarly
 ]
