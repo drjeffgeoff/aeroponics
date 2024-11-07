@@ -42,7 +42,7 @@ INSTALLED_APPS = [
     'sensor',
     'crop_monitoring',
     'recommendation',
-    'rest_framework',
+
 ]
 
 MIDDLEWARE = [
