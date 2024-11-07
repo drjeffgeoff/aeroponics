@@ -1,5 +1,6 @@
 from django.urls import path, include
 # Import the homepage view from the 'accounts' app
+from accounts import admin
 from accounts.views import homepage
 
 urlpatterns = [
